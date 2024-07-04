@@ -5,10 +5,10 @@ config = {
 }
 
 class store:
-    def __init__(self,name:str,brand:str,alais:str,size:str,upc:str,sku:str) -> None:
+    def __init__(self,name:str,brand:str,alias:str,size:str,upc:str,sku:str) -> None:
         self .name = name
         self .brand = brand
-        self .alais = alais
+        self .alias = alias
         self .size = size
         self .upc = upc
         self .sku = sku
